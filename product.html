@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin">
+
+	<!-- CSS Global Compulsory -->
+	<link rel="stylesheet" href="assets2/plugins/bootstrap/css/bootstrap.min.css">
+
+
+	<!-- CSS Header and Footer -->
+
+	<link rel="stylesheet" href="assets2/css/footer.css">
+
+	<!-- CSS Implementing Plugins -->
+
+	<link rel="stylesheet" href="assets2/plugins/font-awesome/css/font-awesome.min.css">
+
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<style>
+		body {
+			font-size: 13px;
+		}
+
+		
+	</style>
+</head>
+
+</html>
+
+<body>
+	<div id="header">
+		<a href="" class="logo">
+			<img src="assets/logo.png" alt="">
+		</a>
+		<div id="menu">
+			<div class="item">
+				<a href="index.html">HomePage</a>
+			</div>
+			<div class="item">
+				<a class="active" href="product.html">Products</a>
+			</div>
+			<div class="item">
+				<a href="blog.html">Blog</a>
+			</div>
+			<div class="item">
+				<a href="service.html">Service</a>
+			</div>
+			<div class="item"> <a href="aboutus.html">About Us</a></div>
+		</div>
+		<hr>
+		<div id="actions">
+			<div class="item">
+				<a href="login.html" target="_self">
+					<img src="assets/user.png" alt="" border="0" />
+				</a>
+			</div>
+			<div class="item">
+
+				<div class="iconCart">
+					<img src="assets/cart.png">
+					<div class="totalQuantity">0</div>
+				</div>
+
+			</div>
+
+
+		</div>
+	</div>
+	</div>
+	
+	<div class="container-option">
+		<form class="filter">
+			<div class="item">
+				<label>Material</label>
+				<select name="material">
+					<option value="">---</option>
+					<option value="metal">Metal</option>
+					<option value="arcylic">Arcylic</option>
+					<option value="wooden">Wooden</option>
+					<option value="led">Led</option>
+					<option value="decorative">Decorative</option>
+					<option value="bluetooth">Bluetooth</option>
+				</select>
+			</div>
+			<div class="item">
+				<label>Room</label>
+				<select name="room">
+					<option value="">---</option>
+					<option value="bathR">Bathroom</option>
+					<option value="livingR">Livingroom</option>
+					<option value="bedR">Bedroom</option>
+					<option value="rawingR">Drawing room</option>
+				</select>
+			</div>
+			<div class="item">
+				<label>Name</label>
+				<input name="name" type="text">
+			</div>
+			<div class="item">
+				<label>Min Price</label>
+				<input name="minPrice" type="number">
+			</div>
+			<div class="item">
+				<label>Max Price</label>
+				<input name="maxPrice" type="number">
+			</div>
+			<div class="item submit">
+				<button>Search</button>
+			</div>
+		</form>
+		<div class="countResults">
+			Found <b id="count">5</b> results
+		</div>
+		<div id="list">
+
+		</div>
+	</div>
+	<div class="cart">
+		<h2>
+			CART
+		</h2>
+
+		<div class="listCart">
+
+
+			<div class="item1">
+				<img src="IMAGE porducts/bedroom/metal7.png">
+				<div class="content">
+					<div class="name1">CoPilot / Black / Automatic</div>
+					<div class="price1">$550 / 1 product</div>
+				</div>
+				<div class="quantity">
+					<button>-</button>
+					<span class="value">3</span>
+					<button>+</button>
+				</div>
+			</div>
+
+
+		</div>
+
+		<div class="buttons">
+			<div class="close">
+				CLOSE
+			</div>
+			<div class="checkout">
+				<a href="checkout.html">CHECKOUT</a>
+			</div>
+		</div>
+	</div>
+	<div>
+		<a class="totop" href="#">
+			<img class="scroll" style="left:10%;" src="IMAGE porducts/scrollt.png" alt="">
+		</a>
+	</div>
+
+	<div class="footer-v1">
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<!-- About -->
+					<div class="col-md-4 md-margin-bottom-40">
+						<a href="index.html"><img id="logo-footer" class="footer-logo"
+								src="assets/logo.png" alt=""></a>
+						<p>At Clear Reflections, we are convinced that 'quality' and 'lowest cost'
+							are not mutually
+							exclusive when it comes to healthcare delivery.</p>
+						<p>Our mission is to deliver high quality, affordable healthcare services to
+							the broader
+							population in India.</p>
+					</div><!--/col-md-3-->
+					<!-- End About -->
+
+					<!-- Latest -->
+
+
+					<!-- Link List -->
+					<div class="col-md-3" style="margin-bottom: 40px;">
+						<div class="headline">
+							<h2>Useful Links</h2>
+						</div>
+						<ul class="list-unstyled link-list">
+							<li><a href="aboutus.html">About us</a><i class="fa fa-angle-right"></i>
+							</li>
+							<li><a href="product.html">Product</a><i class="fa fa-angle-right"></i>
+							</li>
+							<li><a href="Service.html">Service</a><i class="fa fa-angle-right"></i>
+							</li>
+						</ul>
+					</div><!--/col-md-3-->
+					<!-- End Link List -->
+
+					<!-- Address -->
+					<div class="col-md-3 map-img" style="margin-bottom: 40px;text-align: right;">
+						<div class="headline">
+							<h2>Contact Us</h2>
+						</div>
+						<address class="md-margin-bottom-40">
+							Clear Reflections <br />
+
+							Phone: 886 666 00555 <br />
+							Email: ClearRe@gmail.com
+						</address>
+					</div><!--/col-md-3-->
+					<!-- End Address -->
+				</div>
+			</div>
+		</div><!--/footer-->
+
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<p>
+							2023 &copy; Clear Reflections.
+
+						</p>
+					</div>
+
+					<!-- Social Links -->
+					<div class="col-md-6">
+						<ul class="footer-socials list-inline">
+							<li>
+								<a href="http://www.facebook.com" class="tooltips" data-toggle="tooltip"
+									data-placement="top" title="" data-original-title="Facebook">
+									<i class="fa fa-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.skype.com" class="tooltips" data-toggle="tooltip"
+									data-placement="top" title="" data-original-title="Skype">
+									<i class="fa fa-skype"></i>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.googleplus.com" class="tooltips" data-toggle="tooltip"
+									data-placement="top" title="" data-original-title="Google Plus">
+									<i class="fa fa-google-plus"></i>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.linkedin.com" class="tooltips" data-toggle="tooltip"
+									data-placement="top" title="" data-original-title="Linkedin">
+									<i class="fa fa-linkedin"></i>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.Pinterest.com" class="tooltips" data-toggle="tooltip"
+									data-placement="top" title="" data-original-title="Pinterest">
+									<i class="fa fa-pinterest"></i>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.twitter.com" class="tooltips" data-toggle="tooltip"
+									data-placement="top" title="" data-original-title="Twitter">
+									<i class="fa fa-twitter"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- End Social Links -->
+				</div>
+			</div>
+		</div><!--/copyright-->
+	</div>
+</body>
+<script src="js/js.js"> </script>
+<script src="js/cart.js"></script>
+<script src="js/script.js"></script>
+</html>
